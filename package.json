@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@ai-sdk/anthropic": "^2.0.1",
+    "@ai-sdk/google": "^2.0.12",
     "@ai-sdk/groq": "^2.0.0",
     "@ai-sdk/openai": "^2.0.4",
     "@anthropic-ai/sdk": "^0.57.0",
