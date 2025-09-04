@@ -34,6 +34,10 @@ export const appConfig = {
     availableModels: [
       'google/gemini-1.5-pro',
       'google/gemini-1.5-flash',
+      'openrouter/anthropic/claude-3.5-sonnet',
+      'openrouter/openai/gpt-4o',
+      'openrouter/meta-llama/llama-3.1-405b-instruct',
+      'openrouter/qwen/qwen-2.5-72b-instruct',
       'openai/gpt-5',
       'moonshotai/kimi-k2-instruct',
       'anthropic/claude-sonnet-4-20250514'
@@ -43,6 +47,10 @@ export const appConfig = {
     modelDisplayNames: {
       'google/gemini-1.5-pro': 'Gemini 1.5 Pro',
       'google/gemini-1.5-flash': 'Gemini 1.5 Flash',
+      'openrouter/anthropic/claude-3.5-sonnet': 'Claude 3.5 Sonnet (OpenRouter)',
+      'openrouter/openai/gpt-4o': 'GPT-4o (OpenRouter)',
+      'openrouter/meta-llama/llama-3.1-405b-instruct': 'Llama 3.1 405B (OpenRouter)',
+      'openrouter/qwen/qwen-2.5-72b-instruct': 'Qwen 2.5 72B (OpenRouter)',
       'openai/gpt-5': 'GPT-5',
       'moonshotai/kimi-k2-instruct': 'Kimi K2 Instruct',
       'anthropic/claude-sonnet-4-20250514': 'Sonnet 4'
